@@ -15,6 +15,8 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 
 $Proof:$ <br>
 Let $T(n) \in O(\log_{5} n)$<br>
-$T(n) \in O(\log_{5} n \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$ {Definition of O(n)} <br>
-$T(n) \leq c \cdot \frac{\log_{2} n} {\log_{2} 5} $
+$T(n) \in O(\log_{5} n \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n \forall n \geq n_0$ {Definition of O(n)} <br>
+$T(n) \leq c \cdot \frac{\log_{2} n} {\log_{2} 5} $ {Change of base}<br>
+
+
 
