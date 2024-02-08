@@ -19,6 +19,6 @@ $\log_{2} n \in O(\log_{5} n) \iff \exists c, n_0: \log_{2} n \leq c \cdot \log_
 $\log_{2} n \leq \log_{2} 5 \cdot \log_{5} n$<br>
 $\log_{2} 5 \cdot \log_{5} n = \log_{2} 5^{\log{5} n}$<br>
 $\log_{2} 5^{\log{5} n} = \log_{2} n$<br>
-Therefore: \log_{2} n \leq \log_{2} n
+Therefore: <br>$\log_{2} n \leq \log_{2} n
 
 
