@@ -18,7 +18,7 @@ $T(n) \in O(\log_2{n}) \iff \exists c, n_0: T(n) \leq c \cdot \log_2{n}   \foral
 $\log_2{n} = \frac{\log{n}}{\log{2}}$<br>
 $c = \frac{\log{2}}{\log{5}}$<br>
 $T(n) \leq \frac{\log{2}}{\log{5}} \cdot \frac{\log{n}}{\log{2}}$<br>
-$T(n) \leq \log_5{n}<br>
+$T(n) \leq \log_5{n}$<br>
 
 
 
