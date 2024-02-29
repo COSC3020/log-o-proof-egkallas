@@ -14,8 +14,8 @@ might help with the notation for mathematical expressions.
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
 
 $Proof:$ <br>
-$T(n) \in O(\log_2{n}) \iff \exists c, n_0: T(n) \leq c \cdot \log_2{n}  \forall n \geq n_0$ <br>
-$\frac{\log_5{n}}{log_5{2}} \leq c * \frac{\log_2{n}}{log_5{2}}$ (change of base)<br>
+$T(n) \in O(\log_2{n}) \iff \exists c, n_0: T(n) \leq c \cdot \log_2{n}   \forall n \geq n_0$ <br>
+$\log_2{n} = \frac{\log{n}}{\log{2}}(change of base)<br>
 $\log_5{n} \leq c * \log_2{n}$<br>
 True for $n_0 = 1$ and $c = 1$<br><br>
 
