@@ -20,8 +20,8 @@ $T(n) \leq \frac{1}{log_{2}}c \cdot log n \forall n \geq n_0$<br><br>
 
 $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n \forall n \geq n_0$<br>
 $T(n) \leq c \cdot \frac{log_{n}}{\log_{5}}  \forall n \geq n_0$ (Change of base)<br>
-$T(n) \leq \frac{1}{log_{5}}c \cdot log &nbsp; n \forall n \geq n_0$
+$T(n) \leq \frac{1}{log_{5}}c \cdot log n \forall n \geq n_0$
 
-
+\therefore $O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
 
 
