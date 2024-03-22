@@ -24,4 +24,3 @@ $T(n) \leq \frac{1}{log_{5}}c \cdot log n \forall n \geq n_0$
 
 $\therefore O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
 
-
