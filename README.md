@@ -14,10 +14,8 @@ might help with the notation for mathematical expressions.
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
 
 $Proof:$ <br>
-$T(n) \in O(\log_2{n}) \iff \exists c, n_0: T(n) \leq c \cdot \log_2{n}   \forall n \geq n_0$ <br>
-$\log_2{n} = \frac{\log_5{n}}{\log_5{2}}$<br>
-$O(\frac{\log_5{n}}{\log_5{2}}) = O(\log_5{n})$ (Constants don't matter asymptotically)<br>
-Q.E.D.
+$T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$<br>
+
 
 
 
